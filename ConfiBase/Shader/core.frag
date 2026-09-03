@@ -1,7 +1,7 @@
-#version 330 core  //
-in vec3 ourColor; //
+#version 330 core
+in vec3 ourColor;
 
-out vec4 color; //se devuelve color de 4 elementos
+out vec4 color;
 
 void main()
 {
