@@ -239,7 +239,7 @@ int main() {
 		glDrawArrays(GL_TRIANGLES, 0, 36);
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(-6.0f, -5.5f, 0.0f));
-		model = glm::rotate(model, 3.0f, glm::vec3(.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, 3.0f, glm::vec3(0.0f, 0.0f, 1.0f));
 		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glDrawArrays(GL_TRIANGLES, 0, 36);
@@ -260,13 +260,6 @@ int main() {
 		glDrawArrays(GL_TRIANGLES, 0, 36);
 
 		glBindVertexArray(0);
-
-		
-		
-
-		
-		
-		
 
 		// Swap the screen buffers
 		glfwSwapBuffers(window);
