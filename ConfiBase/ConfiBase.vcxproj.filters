@@ -1,66 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Archivos de origen"><UniqueIdentifier>{26d817f8-3de4-4215-9589-9fbfa5f910c2}</UniqueIdentifier></Filter>
-    <Filter Include="Archivos de encabezado"><UniqueIdentifier>{89b87504-c819-47f2-a557-adb12558db5f}</UniqueIdentifier></Filter>
-    <Filter Include="Shaders"><UniqueIdentifier>{6d8dcd1b-2275-423b-a53c-59fe0ff18390}</UniqueIdentifier></Filter>
-    <Filter Include="Shaders\P01"><UniqueIdentifier>{6f290753-5672-4991-a31e-a754e65ebd28}</UniqueIdentifier></Filter>
-    <Filter Include="Shaders\P02"><UniqueIdentifier>{d448f1b5-7466-45c4-8934-acfc43bc017b}</UniqueIdentifier></Filter>
-    <Filter Include="Shaders\P03"><UniqueIdentifier>{be2ad91c-5bcd-4019-8b9b-51a0c7ebf289}</UniqueIdentifier></Filter>
-    <Filter Include="Shaders\P04"><UniqueIdentifier>{97ed6031-2cf7-4c69-8840-ff700a77551b}</UniqueIdentifier></Filter>
-    <Filter Include="Shaders\P05"><UniqueIdentifier>{104bf8f0-5f81-4f6d-9556-c49a2d1cd1f7}</UniqueIdentifier></Filter>
-    <Filter Include="Shaders\P06"><UniqueIdentifier>{566db438-d885-4d85-9eae-0be22a1fce4d}</UniqueIdentifier></Filter>
-    <Filter Include="Shaders\P07"><UniqueIdentifier>{dc0375b0-1b2b-4561-b4a9-54fe7b06cc62}</UniqueIdentifier></Filter>
-    <Filter Include="Shaders\P08"><UniqueIdentifier>{a500fa75-3b61-4eee-8808-e223fc7d998a}</UniqueIdentifier></Filter>
-    <Filter Include="Shaders\P09"><UniqueIdentifier>{ec7e8163-3b32-4da5-b81f-068f977f7d38}</UniqueIdentifier></Filter>
+    <Filter Include="Archivos de origen"><UniqueIdentifier>{8894a8e5-9e16-5f6e-89b7-1c7c9d05d64e}</UniqueIdentifier></Filter>
+    <Filter Include="Archivos de encabezado"><UniqueIdentifier>{e445c797-902b-5c5a-94a2-39b3dc69f951}</UniqueIdentifier></Filter>
+    <Filter Include="Shaders"><UniqueIdentifier>{5578d3e6-cdc9-5064-9a55-f58500ed657e}</UniqueIdentifier></Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp"><Filter>Archivos de origen</Filter></ClCompile>
-    <ClCompile Include="Main_Dibujo2D.cpp"><Filter>Archivos de origen</Filter></ClCompile>
-    <ClCompile Include="Main_P3.cpp"><Filter>Archivos de origen</Filter></ClCompile>
-    <ClCompile Include="Main_Modelado.cpp"><Filter>Archivos de origen</Filter></ClCompile>
-    <ClCompile Include="Modelado_Jerarquico.cpp"><Filter>Archivos de origen</Filter></ClCompile>
-    <ClCompile Include="Carga de Modelos.cpp"><Filter>Archivos de origen</Filter></ClCompile>
-    <ClCompile Include="Texturizado.cpp"><Filter>Archivos de origen</Filter></ClCompile>
-    <ClCompile Include="Iluminacion.cpp"><Filter>Archivos de origen</Filter></ClCompile>
-    <ClCompile Include="fuentesDeLuz.cpp"><Filter>Archivos de origen</Filter></ClCompile>
-    <ClCompile Include="Maquina de estados.cpp"><Filter>Archivos de origen</Filter></ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h"><Filter>Archivos de encabezado</Filter></ClInclude>
-    <ClInclude Include="Mesh.h"><Filter>Archivos de encabezado</Filter></ClInclude>
-    <ClInclude Include="Model.h"><Filter>Archivos de encabezado</Filter></ClInclude>
-    <ClInclude Include="Shader.h"><Filter>Archivos de encabezado</Filter></ClInclude>
-    <ClInclude Include="stb_image.h"><Filter>Archivos de encabezado</Filter></ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader\P01\core.frag"><Filter>Shaders\P01</Filter></None>
-    <None Include="Shader\P01\core.vs"><Filter>Shaders\P01</Filter></None>
-    <None Include="Shader\P02\core.frag"><Filter>Shaders\P02</Filter></None>
-    <None Include="Shader\P02\core.vs"><Filter>Shaders\P02</Filter></None>
-    <None Include="Shader\P03\core.frag"><Filter>Shaders\P03</Filter></None>
-    <None Include="Shader\P03\core.vs"><Filter>Shaders\P03</Filter></None>
-    <None Include="Shader\P04\core.frag"><Filter>Shaders\P04</Filter></None>
-    <None Include="Shader\P04\core.vs"><Filter>Shaders\P04</Filter></None>
-    <None Include="Shader\P05\modelLoading.frag"><Filter>Shaders\P05</Filter></None>
-    <None Include="Shader\P05\modelLoading.vs"><Filter>Shaders\P05</Filter></None>
-    <None Include="Shader\P06\lamp.frag"><Filter>Shaders\P06</Filter></None>
-    <None Include="Shader\P06\lamp.vs"><Filter>Shaders\P06</Filter></None>
-    <None Include="Shader\P07\lamp.frag"><Filter>Shaders\P07</Filter></None>
-    <None Include="Shader\P07\lamp.vs"><Filter>Shaders\P07</Filter></None>
-    <None Include="Shader\P07\lighting.frag"><Filter>Shaders\P07</Filter></None>
-    <None Include="Shader\P07\lighting.vs"><Filter>Shaders\P07</Filter></None>
-    <None Include="Shader\P07\modelLoading.frag"><Filter>Shaders\P07</Filter></None>
-    <None Include="Shader\P07\modelLoading.vs"><Filter>Shaders\P07</Filter></None>
-    <None Include="Shader\P08\lamp.frag"><Filter>Shaders\P08</Filter></None>
-    <None Include="Shader\P08\lamp.vs"><Filter>Shaders\P08</Filter></None>
-    <None Include="Shader\P08\lighting.frag"><Filter>Shaders\P08</Filter></None>
-    <None Include="Shader\P08\lighting.vs"><Filter>Shaders\P08</Filter></None>
-    <None Include="Shader\P09\lamp.frag"><Filter>Shaders\P09</Filter></None>
-    <None Include="Shader\P09\lamp.vs"><Filter>Shaders\P09</Filter></None>
-    <None Include="Shader\P09\lighting.frag"><Filter>Shaders\P09</Filter></None>
-    <None Include="Shader\P09\lighting.vs"><Filter>Shaders\P09</Filter></None>
-    <None Include="Shader\P09\modelLoading.frag"><Filter>Shaders\P09</Filter></None>
-    <None Include="Shader\P09\modelLoading.vs"><Filter>Shaders\P09</Filter></None>
   </ItemGroup>
 </Project>
