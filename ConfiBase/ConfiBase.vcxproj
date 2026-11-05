@@ -98,7 +98,10 @@ xcopy /y /d /q "$(SolutionDir)External Libraries\assimp\lib\assimp-vc140-mt.dll"
     <ClCompile Include="Main_Dibujo2D.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Main_P3.cpp" />
+    <ClCompile Include="Main_P3.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Main_Modelado.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h" />
@@ -108,6 +111,8 @@ xcopy /y /d /q "$(SolutionDir)External Libraries\assimp\lib\assimp-vc140-mt.dll"
     <None Include="Shader\P01\core.vs" />
     <None Include="Shader\P02\core.frag" />
     <None Include="Shader\P02\core.vs" />
+    <None Include="Shader\P03\core.frag" />
+    <None Include="Shader\P03\core.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
