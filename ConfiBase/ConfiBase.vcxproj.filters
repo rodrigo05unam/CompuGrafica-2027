@@ -9,6 +9,7 @@
     <Filter Include="Shaders\P03"><UniqueIdentifier>{3b1907e6-b6d9-5efd-a2bc-ef4f0f3d0d45}</UniqueIdentifier></Filter>
     <Filter Include="Shaders\P04"><UniqueIdentifier>{2d7950ab-656a-565b-91ef-0fac8cc39039}</UniqueIdentifier></Filter>
     <Filter Include="Shaders\P05"><UniqueIdentifier>{3cb95c7b-16a5-5284-a09a-1af8a5b8a770}</UniqueIdentifier></Filter>
+    <Filter Include="Shaders\P06"><UniqueIdentifier>{b4429a18-0f11-5f41-b415-b6f44b5f6d3a}</UniqueIdentifier></Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp"><Filter>Archivos de origen</Filter></ClCompile>
@@ -17,6 +18,7 @@
     <ClCompile Include="Main_Modelado.cpp"><Filter>Archivos de origen</Filter></ClCompile>
     <ClCompile Include="Modelado_Jerarquico.cpp"><Filter>Archivos de origen</Filter></ClCompile>
     <ClCompile Include="Carga de Modelos.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Texturizado.cpp"><Filter>Archivos de origen</Filter></ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h"><Filter>Archivos de encabezado</Filter></ClInclude>
@@ -36,5 +38,7 @@
     <None Include="Shader\P04\core.vs"><Filter>Shaders\P04</Filter></None>
     <None Include="Shader\P05\modelLoading.frag"><Filter>Shaders\P05</Filter></None>
     <None Include="Shader\P05\modelLoading.vs"><Filter>Shaders\P05</Filter></None>
+    <None Include="Shader\P06\lamp.frag"><Filter>Shaders\P06</Filter></None>
+    <None Include="Shader\P06\lamp.vs"><Filter>Shaders\P06</Filter></None>
   </ItemGroup>
 </Project>
