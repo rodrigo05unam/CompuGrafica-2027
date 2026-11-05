@@ -116,7 +116,10 @@ xcopy /y /d /q "$(SolutionDir)External Libraries\assimp\lib\assimp-vc140-mt.dll"
     <ClCompile Include="Iluminacion.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="fuentesDeLuz.cpp" />
+    <ClCompile Include="fuentesDeLuz.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Maquina de estados.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
@@ -148,6 +151,12 @@ xcopy /y /d /q "$(SolutionDir)External Libraries\assimp\lib\assimp-vc140-mt.dll"
     <None Include="Shader\P08\lamp.vs" />
     <None Include="Shader\P08\lighting.frag" />
     <None Include="Shader\P08\lighting.vs" />
+    <None Include="Shader\P09\lamp.frag" />
+    <None Include="Shader\P09\lamp.vs" />
+    <None Include="Shader\P09\lighting.frag" />
+    <None Include="Shader\P09\lighting.vs" />
+    <None Include="Shader\P09\modelLoading.frag" />
+    <None Include="Shader\P09\modelLoading.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
