@@ -7,12 +7,14 @@
     <Filter Include="Shaders\P01"><UniqueIdentifier>{99dfdb0b-33e1-5ef4-ac62-ddfa06f448bc}</UniqueIdentifier></Filter>
     <Filter Include="Shaders\P02"><UniqueIdentifier>{db0d0ccd-a975-5f20-916b-ec22021d5ba4}</UniqueIdentifier></Filter>
     <Filter Include="Shaders\P03"><UniqueIdentifier>{3b1907e6-b6d9-5efd-a2bc-ef4f0f3d0d45}</UniqueIdentifier></Filter>
+    <Filter Include="Shaders\P04"><UniqueIdentifier>{2d7950ab-656a-565b-91ef-0fac8cc39039}</UniqueIdentifier></Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp"><Filter>Archivos de origen</Filter></ClCompile>
     <ClCompile Include="Main_Dibujo2D.cpp"><Filter>Archivos de origen</Filter></ClCompile>
     <ClCompile Include="Main_P3.cpp"><Filter>Archivos de origen</Filter></ClCompile>
     <ClCompile Include="Main_Modelado.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Modelado_Jerarquico.cpp"><Filter>Archivos de origen</Filter></ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h"><Filter>Archivos de encabezado</Filter></ClInclude>
@@ -24,5 +26,7 @@
     <None Include="Shader\P02\core.vs"><Filter>Shaders\P02</Filter></None>
     <None Include="Shader\P03\core.frag"><Filter>Shaders\P03</Filter></None>
     <None Include="Shader\P03\core.vs"><Filter>Shaders\P03</Filter></None>
+    <None Include="Shader\P04\core.frag"><Filter>Shaders\P04</Filter></None>
+    <None Include="Shader\P04\core.vs"><Filter>Shaders\P04</Filter></None>
   </ItemGroup>
 </Project>
