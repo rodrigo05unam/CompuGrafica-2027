@@ -110,7 +110,10 @@ xcopy /y /d /q "$(SolutionDir)External Libraries\assimp\lib\assimp-vc140-mt.dll"
     <ClCompile Include="Carga de Modelos.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Texturizado.cpp" />
+    <ClCompile Include="Texturizado.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Iluminacion.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
@@ -132,6 +135,12 @@ xcopy /y /d /q "$(SolutionDir)External Libraries\assimp\lib\assimp-vc140-mt.dll"
     <None Include="Shader\P05\modelLoading.vs" />
     <None Include="Shader\P06\lamp.frag" />
     <None Include="Shader\P06\lamp.vs" />
+    <None Include="Shader\P07\lamp.frag" />
+    <None Include="Shader\P07\lamp.vs" />
+    <None Include="Shader\P07\lighting.frag" />
+    <None Include="Shader\P07\lighting.vs" />
+    <None Include="Shader\P07\modelLoading.frag" />
+    <None Include="Shader\P07\modelLoading.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
